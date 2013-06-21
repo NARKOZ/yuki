@@ -1,0 +1,29 @@
+.container-fluid
+  - if @uploads.any?
+    .page-header
+      h1 Uploads
+
+    table.table.table-bordered.table-striped.table-hover
+      thead
+        tr
+          th ID
+          th Video
+          th Image
+      tbody
+        - @uploads.each do |upload|
+          tr
+            td
+              = upload.id
+            td
+              a href=upload.video.url target="_blank" #{upload.video.file.filename}
+            td
+              - if upload.image?
+                a href=upload.image.url target="_blank" #{upload.image.file.filename}
+  - else
+    .page-header
+      h1 No uploads
+
+  - if FFMPEG_EXECUTABLE.nil?
+    .alert.alert-block
+      h4.alert-heading FFmpeg not found
+      p Install FFmpeg to generate gif images.
