@@ -23,16 +23,16 @@ bundle install
 
 1. Run Yuki:
 
-```sh
-rackup -p 9000
-```
+  ```sh
+  rackup -p 9000
+  ```
 
 2. Install Gifzo from website: http://gifzo.net
 3. Set upload URL point to Yuki:
 
-```sh
-defaults write net.gifzo.Gifzo url -string "http://localhost:9000/"
-```
+  ```sh
+  defaults write net.gifzo.Gifzo url -string "http://localhost:9000/"
+  ```
 
 ## Resources
 
