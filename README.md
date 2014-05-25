@@ -2,6 +2,8 @@
 
 Web app for [Gifzo](http://gifzo.net/).
 
+![Screen Shot](https://raw.githubusercontent.com/NARKOZ/yuki/gh-pages/screenshot.png)
+
 ## Requirements
 
 + SQLite 3
