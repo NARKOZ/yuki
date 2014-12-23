@@ -38,5 +38,5 @@ bundle install
 
 ## Resources
 
-+ [Gifzo.app](https://github.com/uiureo/Gifzo.app)
-+ [pyazo](https://github.com/uzulla/pyazo)
++ [Gifzo.app](https://github.com/cockscomb/Gifzo.app)
++ [Pyazo2](https://github.com/uzulla/Pyazo2)
